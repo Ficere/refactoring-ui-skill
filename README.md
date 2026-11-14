@@ -1,5 +1,7 @@
 # 🎨 Refactoring UI 原则 / Refactoring UI Principles
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 把界面视觉质量变成可执行清单的 Agent Skill —— 写、改或走查页面、dashboard、落地页和组件时，按 20 条规则检查层级、间距、排版、色彩和空状态。
 
 An Agent Skill that turns UI polish into an actionable checklist: 20 visual rules from *Refactoring UI* covering hierarchy, spacing, typography, color, and empty states, applied when building or reviewing product interfaces.
@@ -116,6 +118,7 @@ npx skills add anthropics/skills --skill frontend-design
 ```
 refactoring-ui-skill/
 ├── SKILL.md      # 技能入口（Agent 自动读取）：20 条规则 + 出手前自检
+├── LICENSE       # MIT
 └── README.md
 ```
 
@@ -126,3 +129,11 @@ refactoring-ui-skill/
 本仓库是操作清单，不是原文摘录。《Refactoring UI》的版权属于原作者；请不要把原书或文章大段复制进产品或文档。
 
 Rules are distilled from *Refactoring UI* by Adam Wathan and Steve Schoger. This repo is an actionable checklist, not an excerpt; all rights to the book belong to its authors.
+
+## License
+
+[MIT](LICENSE) © 2026 Ficere
+
+MIT 许可适用于本仓库的原创内容（规则整理、措辞与文档），不涉及《Refactoring UI》原书或所引文章的版权。
+
+The MIT license covers this repository's original content only, not the book *Refactoring UI* or the referenced article.
